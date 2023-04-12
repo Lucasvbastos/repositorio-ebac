@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px;
+    background-color: #0270ff; 
+    color: #fff;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: #004299;
+}
+
+input {
+    padding: 8px;
+}
+
+ul li {
+    padding-top: 30px;
+}
+
+#lista-tarefas {
+    display: none;
+}
+.completed {
+    text-decoration: line-through;
+}

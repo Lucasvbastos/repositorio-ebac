@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Lista de tarefas</h1>
+        </header>
+        <main>
+            <form onsubmit="adicionarTarefa()">
+                <input id="nome-tarefa" type="text" required placeholder="Nome da tarefa">
+                <button id="submeter" type="submit">Cadastrar +</button>
+            </form>
+        </main>
+        <footer>
+            <ul id="lista-tarefas"></ul>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
